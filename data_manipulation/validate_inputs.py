@@ -8,3 +8,6 @@ print("\nEXAMPLE 2")
 result = pyip.inputMenu(["red", "blue", "green"], lettered=True, numbered=False)
 print("\nYou have chosen a", result, "marker.")
 
+print("\nEXAMPLE 3")
+result = pyip.inputEmail("Enter your email address:")
+print("\nThe email you entered:", result)
