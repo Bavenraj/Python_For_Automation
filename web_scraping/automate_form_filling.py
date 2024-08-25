@@ -18,7 +18,11 @@ first_name.send_keys("John")
 last_name = driver.find_element(By.XPATH, '//*[@id="input-lastname"]')
 last_name.send_keys("Doe")
 
+email = driver.find_element(By.XPATH, '//*[@id="input-email"]')
+email.send_keys("helloworld@gmail.com")
 
+telephone = driver.find_element(By.XPATH, '//*[@id="input-telephone"]')
+telephone.send_keys("01102010202")
 
 password = driver.find_element(By.XPATH, '//*[@id="input-password"]')
 password.send_keys("helloworld")
