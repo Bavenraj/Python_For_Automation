@@ -12,8 +12,7 @@ driver.maximize_window()
 
 driver.get(url)
 
-first_name = driver.find_element(By.XPATH, '//*[@id="input-firstname"]')
-first_name.send_keys("John")
+
 
 last_name = driver.find_element(By.XPATH, '//*[@id="input-lastname"]')
 last_name.send_keys("Doe")
